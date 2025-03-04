@@ -15,6 +15,7 @@
     --color-yellow-600: oklch(0.681 0.162 75.834);
     --color-green-500: oklch(0.723 0.219 149.579);
     --color-blue-500: oklch(0.623 0.214 259.815);
+    --color-gray-500: oklch(0.551 0.027 264.364);
     --color-gray-600: oklch(0.446 0.03 256.802);
     --color-gray-700: oklch(0.373 0.034 259.733);
     --color-white: #fff;
@@ -413,8 +414,20 @@
   .mx-8 {
     margin-inline: calc(var(--spacing) * 8);
   }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
+  }
+  .mx-30 {
+    margin-inline: calc(var(--spacing) * 30);
+  }
   .mx-48 {
     margin-inline: calc(var(--spacing) * 48);
+  }
+  .mx-68 {
+    margin-inline: calc(var(--spacing) * 68);
+  }
+  .mx-auto {
+    margin-inline: auto;
   }
   .my-50 {
     margin-block: calc(var(--spacing) * 50);
@@ -547,6 +560,9 @@
   }
   .h-4 {
     height: calc(var(--spacing) * 4);
+  }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
   }
   .h-6 {
     height: calc(var(--spacing) * 6);
@@ -1246,6 +1262,10 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
   .border-x {
     border-inline-style: var(--tw-border-style);
     border-inline-width: 1px;
@@ -1270,6 +1290,14 @@
     border-right-style: var(--tw-border-style);
     border-right-width: 1px;
   }
+  .border-r-2 {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 2px;
+  }
+  .border-r-4 {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 4px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -1277,6 +1305,18 @@
   .border-l {
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
+  }
+  .border-l-2 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 2px;
+  }
+  .border-l-4 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 4px;
+  }
+  .border-l-8 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 8px;
   }
   .border-dashed {
     --tw-border-style: dashed;
@@ -1301,6 +1341,9 @@
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
+  }
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
   }
   .border-gray-700 {
     border-color: var(--color-gray-700);
@@ -1401,6 +1444,12 @@
   .bg-\[url\(\'\/github\.png\'\)\] {
     background-image: url('/github.png');
   }
+  .bg-\[url\(\'\/gmail\.\'\)\] {
+    background-image: url('/gmail.');
+  }
+  .bg-\[url\(\'\/gmail\.png\'\)\] {
+    background-image: url('/gmail.png');
+  }
   .bg-\[url\(\'\/instagram\'\)\] {
     background-image: url('/instagram');
   }
@@ -1427,6 +1476,12 @@
   }
   .bg-\[url\(\'\/tailwindcss\.png\'\)\] {
     background-image: url('/tailwindcss.png');
+  }
+  .bg-\[url\(\'\/whatsapp\'\)\] {
+    background-image: url('/whatsapp');
+  }
+  .bg-\[url\(\'\/whatsapp\.png\'\)\] {
+    background-image: url('/whatsapp.png');
   }
   .bg-\[url\(\'fotoperfileu\.jpg\'\)\] {
     background-image: url('fotoperfileu.jpg');
@@ -1642,11 +1697,17 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
+  .px-40 {
+    padding-inline: calc(var(--spacing) * 40);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
+  }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
   }
   .py-40 {
     padding-block: calc(var(--spacing) * 40);
@@ -1687,11 +1748,17 @@
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
   }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
+  }
+  .pl-20 {
+    padding-left: calc(var(--spacing) * 20);
   }
   .text-center {
     text-align: center;
