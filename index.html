@@ -7,12 +7,13 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-600 text-yellow-500">
-    <div class="flex justify-between font-bold p-10">
-      <div class="flex items-center">
-        <div class="text-5xl font-bold pr-2">/></div>
-        <div class="text-4xl">Manoel Ferreira</div>
+    <div class="flex justify-between font-bold md:p-10">
+      <div class="flex items-center p-6">
+        <div class="md:block text-3xl md:text-5xl font-bold pr-2">/></div>
+        <div class="text-3xl md:text-4xl">Manoel Ferreira</div>
       </div>
-      <div class="inline-flex items-center text-xl text-gray-700">
+      <div class="bg-[url('/images/navi.png')] m-auto bg-cover w-16 h-16"></div>
+      <div class="hidden md:inline-flex items-center text-xl text-gray-700">
         <div class="bg-yellow-400 rounded-4xl px-4 py-2 m-2">
           <a href="">Home</a>
         </div>
@@ -28,39 +29,42 @@
       </div>
     </div>
     <div
-      class="flex justify-around items-center w-full py-50 bg-yellow-500 text-gray-700 text-4xl font-bold"
+      class="md:flex justify-around items-center w-full py-24 md:py-50 bg-yellow-500 text-gray-700 md:text-4xl font-bold text-3xl"
     >
-      <div>
-        <div class="">I'm</div>
-        <div class="text-7xl mt-2">Manoel Victor</div>
-        <div class="text-7xl">Ferreira</div>
-        <h1 class="mt-4">FullStack Developer</h1>
-        <div class="flex items-center mt-8">
+      <div
+        class="md:hidden bg-[url('/images/fotoperfileu.jpg')] m-auto bg-cover h-62 w-62 rounded-full"
+      ></div>
+      <div class="text-center md:text-start">
+        <div class="text-start pt-4 pl-12">I'm</div>
+        <div class="md:text-7xl text-5xl md:mt-2">Manoel Victor</div>
+        <div class="md:text-7xl text-5xl">Ferreira</div>
+        <h1 class="md:mt-4 mt-2">FullStack Developer</h1>
+        <div class="flex justify-center items-center md:mt-8 mt-6">
           <div
-            class="bg-[url('/images/github.png')] bg-cover w-10 h-10 mr-4 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/github.png')] bg-cover w-14 h-14 mr-6 rounded-full hover:cursor-pointer"
           >
             <a href=""></a>
           </div>
           <div
-            class="bg-[url('/images/linkedin.png')] bg-cover w-10 h-10 mr-4 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/linkedin.png')] bg-cover w-14 h-14 mr-6 rounded-full hover:cursor-pointer"
           >
             <a href=""></a>
           </div>
           <div
-            class="bg-[url('/images/instagram.png')] bg-cover w-10 h-10 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/instagram.png')] bg-cover w-14 h-14 rounded-full hover:cursor-pointer"
           >
             <a href=""></a>
           </div>
         </div>
       </div>
       <div
-        class="bg-[url('/images/fotoperfileu.jpg')] bg-cover h-96 w-96 rounded-full mr-40"
+        class="hidden md:block bg-[url('/images/fotoperfileu.jpg')] bg-cover h-96 w-96 rounded-full md:mr-40"
       ></div>
     </div>
-    <div class="m-48">
+    <div class="m-8 mt-18 md:m-48">
       <h1 class="font-bold text-4xl pb-6">About Me</h1>
-      <div class="bg-yellow-500 rounded-4xl p-15 text-gray-700">
-        <div class="text-3xl">
+      <div class="bg-yellow-500 rounded-4xl p-4 md:p-15 text-gray-700">
+        <div class="text-2xl md:text-3xl">
           <p class="p-2">
             <span class="font-bold">I'm a brazilian salesperson</span> with a
             passion for gamimg and technology. Born in
@@ -78,7 +82,7 @@
             Specializing in
             <span class="font-bold"
               >resolving problems using logical thinking and creativity</span
-            >, I enjoy tackling challenges — whether in coding, sales, or
+            >, I enjoy tackling challenges, whether in coding, sales, or
             gaming.
           </p>
           <p class="p-2">
@@ -88,37 +92,37 @@
             solutions.
           </p>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center pt-2">
           <div
-            class="bg-[url('/images/react.png')] bg-cover w-18 h-18 rounded-full"
+            class="bg-[url('/images/react.png')] bg-cover w-14 md:w-18 h-14 md:h-18"
           ></div>
           <div
-            class="bg-[url('/images/nodejs.png')] bg-cover w-18 h-18 rounded-full mx-8"
+            class="bg-[url('/images/nodejs.png')] bg-cover w-14 md:w-18 h-14 md:h-18 mx-8"
           ></div>
           <div
-            class="bg-[url('/images/tailwindcss.png')] bg-cover w-18 h-18 rounded-full"
+            class="bg-[url('/images/tailwindcss.png')] bg-cover w-14 md:w-18 h-14 md:h-18"
           ></div>
         </div>
       </div>
     </div>
-    <div class="flex justify-center items-center bg-yellow-500 text-gray-700">
-        <div class="mx-48 py-30 px-40 border-r-4">
-          <div class="font-bold text-5xl">Liked What You Saw</div>
-          <div class="font-bold text-5xl">Contact Me</div>
+    <div class="md:flex md:justify-center md:items-center bg-yellow-500 text-gray-700">
+        <div class="mx-4 md:mx-48 py-4 md:py-30 px-4 md:px-40 md:border-r-4">
+          <div class="font-bold text-4xl md:text-5xl">Liked What You Saw</div>
+          <div class="font-bold text-4xl md:text-5xl">Contact Me</div>
         </div>
-      <div class=" mx-auto py-30">
-        <div>
+      <div class="pb-6 md:mx-auto md:py-30">
+        <div class="flex justify-center items-center">
           <div
-            class="bg-[url('/images/instagram.png')] bg-cover w-10 h-10 rounded-full m-2 hover:cursor-pointer"
+            class="bg-[url('/images/instagram.png')] bg-cover w-12 h-12 rounded-full m-2 hover:cursor-pointer"
           ></div>
           <div
-            class="bg-[url('/images/linkedin.png')] bg-cover w-10 h-10 m-2 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/linkedin.png')] bg-cover w-12 h-12 m-2 rounded-full hover:cursor-pointer"
           ></div>
           <div
-            class="bg-[url('/images/whatsapp.png')] bg-cover w-10 h-10 m-2 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/whatsapp.png')] bg-cover w-12 h-12 m-2 rounded-full hover:cursor-pointer"
           ></div>
           <div
-            class="bg-[url('/images/gmail.png')] bg-cover w-10 h-10 m-2 rounded-full hover:cursor-pointer"
+            class="bg-[url('/images/gmail.png')] bg-cover w-12 h-12 m-2 rounded-full hover:cursor-pointer"
           ></div>
         </div>
       </div>
